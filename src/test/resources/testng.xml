@@ -1,0 +1,16 @@
+<suite name="Selenium TestNG Suite">
+
+	  <test name="CreateTest1">
+		<parameter name="testName" value="CreateTest1" />
+		<classes>
+			<class name="com.training.test.CreateTest1" />
+		</classes>
+	</test>
+	
+	<test name="CreateTest2">
+		<parameter name="testName" value="CreateTest2" />
+		<classes>
+			<class name="com.training.test.CreateTest2" />
+		</classes>
+	</test>
+</suite>

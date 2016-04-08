@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Selenium TestNG Suite]">
+  <parameter name="testName" value="CreateTest2"/>
+  <test name="CreateTest1(failed)">
+    <parameter name="testName" value="CreateTest1"/>
+    <classes>
+      <class name="com.training.test.CreateTest2">
+        <methods>
+          <include name="onStart"/>
+          <include name="onEnd"/>
+        </methods>
+      </class> <!-- com.training.test.CreateTest2 -->
+      <class name="com.training.test.CreateTest1">
+        <methods>
+          <include name="onStart"/>
+          <include name="testCreateTest1"/>
+        </methods>
+      </class> <!-- com.training.test.CreateTest1 -->
+    </classes>
+  </test> <!-- CreateTest1(failed) -->
+</suite> <!-- Failed suite [Selenium TestNG Suite] -->

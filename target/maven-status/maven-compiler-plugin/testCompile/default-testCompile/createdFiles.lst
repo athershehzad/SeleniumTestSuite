@@ -1,0 +1,10 @@
+com\training\info\Test1DataInfo.class
+com\compendium\util\TestUtil.class
+com\compendium\util\Driver.class
+com\training\framwork\BaseTest.class
+com\training\test\CreateTest1.class
+com\compendium\util\CSVFileUtil.class
+com\compendium\util\ResultInfo.class
+com\training\info\Test2DataInfo.class
+com\training\test\CreateTest2.class
+com\compendium\util\TestConstant.class
